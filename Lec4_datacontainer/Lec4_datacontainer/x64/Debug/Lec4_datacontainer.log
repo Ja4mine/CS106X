@@ -1,0 +1,5 @@
+﻿  Lec4_datacontainer.cpp
+F:\C++\Lec4_datacontainer\Lec4_datacontainer\Lec4_datacontainer.cpp(21,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\C++\Lec4_datacontainer\Lec4_datacontainer\Lec4_datacontainer.cpp(22,8): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\C++\Lec4_datacontainer\Lec4_datacontainer\Lec4_datacontainer.cpp(23,15): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Lec4_datacontainer.vcxproj -> F:\C++\Lec4_datacontainer\x64\Debug\Lec4_datacontainer.exe

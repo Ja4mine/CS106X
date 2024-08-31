@@ -1,0 +1,3 @@
+﻿  Lec9_recursion_backtracking.cpp
+F:\C++\Lec9_recursion_backtracking\Lec9_recursion_backtracking\Lec9_recursion_backtracking.cpp(68,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Lec9_recursion_backtracking.vcxproj -> F:\C++\Lec9_recursion_backtracking\x64\Debug\Lec9_recursion_backtracking.exe

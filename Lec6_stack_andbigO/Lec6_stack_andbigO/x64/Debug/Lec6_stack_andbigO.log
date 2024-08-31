@@ -1,0 +1,4 @@
+﻿  Lec6_stack_andbigO.cpp
+F:\C++\Lec6_stack_andbigO\Lec6_stack_andbigO\Lec6_stack_andbigO.cpp(17,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+F:\C++\Lec6_stack_andbigO\Lec6_stack_andbigO\Lec6_stack_andbigO.cpp(17,14): warning C4267: “初始化”: 从“size_t”转换到“const int”，可能丢失数据
+  Lec6_stack_andbigO.vcxproj -> F:\C++\Lec6_stack_andbigO\x64\Debug\Lec6_stack_andbigO.exe

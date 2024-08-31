@@ -1,0 +1,3 @@
+﻿  Lec9_recursion_combination.cpp
+F:\C++\Lec9_recursion_combination\Lec9_recursion_combination\Lec9_recursion_combination.cpp(32,13): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  Lec9_recursion_combination.vcxproj -> F:\C++\Lec9_recursion_combination\x64\Debug\Lec9_recursion_combination.exe

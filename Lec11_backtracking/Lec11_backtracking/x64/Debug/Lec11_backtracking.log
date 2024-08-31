@@ -1,0 +1,5 @@
+﻿  Lec11_backtracking.cpp
+F:\C++\Lec11_backtracking\Lec11_backtracking\Lec11_backtracking.cpp(25,33): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+F:\C++\Lec11_backtracking\Lec11_backtracking\Lec11_backtracking.cpp(43,40): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1134,5): error MSB6006: “link.exe”已退出，代码为 1168。
+LINK : fatal error LNK1168: 无法打开 F:\C++\Lec11_backtracking\x64\Debug\Lec11_backtracking.exe 进行写入

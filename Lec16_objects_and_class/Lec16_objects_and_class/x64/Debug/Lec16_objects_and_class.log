@@ -1,0 +1,41 @@
+﻿  Lec16_objects_and_class.cpp
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(9,17): error C2512: “BankAccount”: 没有合适的默认构造函数可用
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(6,7): message : 参见“BankAccount”的声明
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(41,19): error C2084: 函数“void BankAccount::setDeposit(int)”已有主体
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(8,7): message : 参见“setDeposit”的前一个定义
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,38): error C2665: “BankAccount::BankAccount”: 没有重载函数可以转换所有参数类型
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(20,1): message : 可能是“BankAccount::BankAccount(BankAccount &&)”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,38): message : “BankAccount::BankAccount(BankAccount &&)”: 无法将参数 1 从“const char [6]”转换为“BankAccount &&”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,39): message : 原因如下: 无法从“const char [6]”转换为“BankAccount”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(20,1): message : 或    “BankAccount::BankAccount(const BankAccount &)”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,38): message : “BankAccount::BankAccount(const BankAccount &)”: 无法将参数 1 从“const char [6]”转换为“const BankAccount &”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,39): message : 原因如下: 无法从“const char [6]”转换为“const BankAccount”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(14,2): message : 或    “BankAccount::BankAccount(char)”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,38): message : “BankAccount::BankAccount(char)”: 无法将参数 1 从“const char [6]”转换为“char”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,39): message : 没有使该转换得以执行的上下文
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,38): message : 尝试匹配参数列表“(const char [6])”时
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,21): error C2440: “初始化”: 无法从“BankAccount *”转换为“BankAccount”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,21): message : “BankAccount::BankAccount”: 没有重载函数可以转换所有参数类型
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(20,1): message : 可能是“BankAccount::BankAccount(BankAccount &&)”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,21): message : “BankAccount::BankAccount(BankAccount &&)”: 无法将参数 1 从“BankAccount *”转换为“BankAccount &&”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,38): message : 原因如下: 无法从“BankAccount *”转换为“BankAccount”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,38): message : 转换要求第二个用户定义的转换运算符或构造函数
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(20,1): message : 或    “BankAccount::BankAccount(const BankAccount &)”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,21): message : “BankAccount::BankAccount(const BankAccount &)”: 无法将参数 1 从“BankAccount *”转换为“const BankAccount &”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,38): message : 原因如下: 无法从“BankAccount *”转换为“const BankAccount”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,38): message : 转换要求第二个用户定义的转换运算符或构造函数
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(14,2): message : 或    “BankAccount::BankAccount(char)”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,21): message : “BankAccount::BankAccount(char)”: 无法将参数 1 从“BankAccount *”转换为“char”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,38): message : 没有使该转换得以执行的上下文
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(54,21): message : 尝试匹配参数列表“(BankAccount *)”时
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(56,19): error C2665: “BankAccount::BankAccount”: 没有重载函数可以转换所有参数类型
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(20,1): message : 可能是“BankAccount::BankAccount(BankAccount &&)”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(56,19): message : “BankAccount::BankAccount(BankAccount &&)”: 无法将参数 1 从“const char [6]”转换为“BankAccount &&”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(56,20): message : 原因如下: 无法从“const char [6]”转换为“BankAccount”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(20,1): message : 或    “BankAccount::BankAccount(const BankAccount &)”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(56,19): message : “BankAccount::BankAccount(const BankAccount &)”: 无法将参数 1 从“const char [6]”转换为“const BankAccount &”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(56,20): message : 原因如下: 无法从“const char [6]”转换为“const BankAccount”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\bankaccount.h(14,2): message : 或    “BankAccount::BankAccount(char)”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(56,19): message : “BankAccount::BankAccount(char)”: 无法将参数 1 从“const char [6]”转换为“char”
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(56,20): message : 没有使该转换得以执行的上下文
+F:\C++\Lec16_objects_and_class\Lec16_objects_and_class\Lec16_objects_and_class.cpp(56,19): message : 尝试匹配参数列表“(const char [6])”时
